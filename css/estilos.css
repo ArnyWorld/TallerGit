@@ -14,21 +14,46 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     max-height: 50vh;
-    position: absolute;
+    position: relative;
   }
 /*Menu*/
 .menu{
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-around;
   top: 25px;
   background: rgba(0,0,0,.7);
   height: 60px;
   align-items: center;
+  width: 99%;
 }
 .menu a{
-  width: 150px;
   text-decoration: none;
   color:white;
   font-size:2rem;
+}
+
+/*Cuerpo*/
+.cuerpo{
+  position: relative;
+  display:flex;
+}
+.cuerpo.contenido{
+  position: relative;
+  width: 65%;
+  top: 0;
+}
+.cuerpo .contenido p{
+  padding-left: 20px;
+  text-align: justify;
+  padding-right: 20px;
+}
+.cuerpo .aside img{
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+}
+.cuerpo .aside p{
+  text-align: justify;
+  padding-right: 20px;
 }
