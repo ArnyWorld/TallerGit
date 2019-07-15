@@ -57,3 +57,15 @@ html {
   text-align: justify;
   padding-right: 20px;
 }
+
+/*Pie de página*/
+footer{
+  background:#0270B2;
+  height: 35px;
+}
+footer p{
+  color:#fff;
+  font-size: 20px;
+  text-align: center;
+  padding-top:5px ;
+}
